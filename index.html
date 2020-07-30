@@ -10,25 +10,26 @@
 </head>
 
 <body>
-    <section class="navi" id="Navigation">
+    <section class="navi" id="Navigation" style="margin-bottom: 1rem;">
         <nav class="level container" role="navigation" aria-label="Main Navigation Bar">
             <p class="level-item has-text-centered">
-                <a class="link is-info">Home</a>
+                <a class="button is-large is-fullwidth is-info is-inverted" style="color: #7a7a7a;">Home</a>
             </p>
             <p class="level-item has-text-centered">
-                <a class="link is-info">Campaigns</a>
+                <a class="button is-large is-fullwidth is-info is-inverted" style="color: #7a7a7a;">Campaigns</a>
             </p>
             <p class="level-item has-text-centered">
-                <img src="res/img/Mimi.png" alt="Mimi the Mimic Logo" style="height: 100px;">
+                <img src="res/img/Mimi.png" alt="Mimi the Mimic Logo" style="max-height: 128px;">
             </p>
             <p class="level-item has-text-centered">
-                <a class="link is-info">Blog</a>
+                <a class="button is-large is-fullwidth is-info is-inverted" style="color: #7a7a7a;">Blog</a>
             </p>
             <p class="level-item has-text-centered">
-                <a class="link is-info">Watch Us</a>
+                <a class="button is-large is-fullwidth is-info is-inverted" style="color: #7a7a7a;">Watch Us</a>
             </p>
         </nav>
     </section>
+
     <section class="hero is-dark is-medium" id="Title">
         <div class="hero-body">
             <div class="container centre">
@@ -49,60 +50,61 @@
             <div class="container">
                 <div class="columns is-centered is-multiline is-mobile">
                     <div class="column is-narrow">
-                        <a class="button is-rounded is-large">Twitch</a>
+                        <a class="button is-rounded is-large is-outlined">Twitch</a>
                     </div>
                     <div class="column is-narrow">
-                        <a class="button is-rounded is-large">Youtube</a>
+                        <a class="button is-rounded is-large is-outlined">Youtube</a>
                     </div>
                     <div class="column is-narrow">
-                        <a class="button is-rounded is-large">Schedule</a>
+                        <a class="button is-rounded is-large is-outlined">Schedule</a>
                     </div>
                     <div class="column is-narrow">
-                        <a class="button is-rounded is-large">Twitter</a>
+                        <a class="button is-rounded is-large  is-outlined">Twitter</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="is-medium" id="CampaignCarousel">
-    </section>
-
-    <section class="is-medium container" id="Players">
+    <section class="is-medium container is-fluid" id="Players">
         <div class="columns is-centered is-multiline is-mobile">
-            <div class="column is-one-quarter">
+            <div class="column is-one-quarter is-player">
                 <figure class="image is-3by4">
                     <img src="https://loremflickr.com/960/1280/dog?random=1" alt="Placeholder image">
                 </figure>
+                <div class="overlay">
+                    <p class="centre player-title">Hello</p>
+                    <p class="centre player-sub">Here's some quick info about this card, other stuff other stuff lorem ipsum</p>
+                </div>
             </div>
-            <div class="column is-one-quarter">
+            <div class="column is-one-quarter is-player">
                 <figure class="image is-3by4">
                     <img src="https://loremflickr.com/960/1280/dog?random=2" alt="Placeholder image">
                 </figure>
             </div>
-            <div class="column is-one-quarter">
+            <div class="column is-one-quarter is-player">
                 <figure class="image is-3by4">
                     <img src="https://loremflickr.com/960/1280/dog?random=3" alt="Placeholder image">
                 </figure>
             </div>
-            <div class="column is-one-quarter">
+            <div class="column is-one-quarter is-player">
                 <figure class="image is-3by4">
                     <img src="https://loremflickr.com/960/1280/dog?random=4" alt="Placeholder image">
                 </figure>
             </div>
         </div>
         <div class="columns is-centered is-multiline is-mobile">
-            <div class="column is-one-quarter">
+            <div class="column is-one-quarter is-player">
                 <figure class="image is-3by4">
                     <img src="https://loremflickr.com/960/1280/dog?random=5" alt="Placeholder image">
                 </figure>
             </div>
-            <div class="column is-one-quarter">
+            <div class="column is-one-quarter is-player">
                 <figure class="image is-3by4">
                     <img src="https://loremflickr.com/960/1280/dog?random=6" alt="Placeholder image">
                 </figure>
             </div>
-            <div class="column is-one-quarter">
+            <div class="column is-one-quarter is-player">
                 <figure class="image is-3by4">
                     <img src="https://loremflickr.com/960/1280/dog?random=7" alt="Placeholder image">
                 </figure>
@@ -112,7 +114,8 @@
     <footer class="footer">
         <div class="content has-text-centered">
             <p>
-                <strong>Myths & Mimics</strong> website made with <i class="fas fa-coffee"></i> & <i class="fas fa-dice-d20"></i> by <a href="https://nik.codes">Nik</a> using the <a
+                <strong>Myths & Mimics</strong> website made with <i class="fas fa-coffee"></i> & <i
+                    class="fas fa-dice-d20"></i> by <a href="https://nik.codes">Nik</a> using the <a
                     href="https://bulma.io">Bulma</a> framework.
             </p>
         </div>
