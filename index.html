@@ -66,22 +66,25 @@
         <!-- </div> -->
     </section>
 
-    <section class="section is-medium container wrapper" id="Campaigns">
+    <section class="section is-medium is-fluid container wrapper" id="Campaigns">
+        <h1 class="title centre" style="padding-bottom: 3rem;">What We Play</h1>
         <div class="slider" data-simple-slider id="CampaignSlider">
-            <img src="https://loremflickr.com/976/400/dog?random=8"/>
-            <img src="https://loremflickr.com/976/400/dog?random=9"/>
-            <img src="https://loremflickr.com/976/400/dog?random=10"/>
+            <a href="#" style="width: 100%;"><img src="https://loremflickr.com/976/400/dog?random=8"/></a>
+            <a href="#" style="width: 100%;"><img src="https://loremflickr.com/976/400/dog?random=9"/></a>
+            <a href="#" style="width: 100%;"><img src="https://loremflickr.com/976/400/dog?random=10"/></a>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
         <script>
             simpleslider.getSlider({
-                container: document.getElementById('CampaignSlider')
+                container: document.getElementById('CampaignSlider'),
+                delay: 5
             }
             );
         </script>
     </section>
 
     <section class="section is-medium container is-fluid" id="Players">
+        <h1 class="title centre" style="padding-bottom: 3rem;">Who We Are</h1>
         <div class="columns is-centered is-multiline is-mobile">
             <div class="column is-one-quarter is-player">
                 <figure class="image is-3by4">
