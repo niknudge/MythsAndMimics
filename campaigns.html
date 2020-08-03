@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Myths & Mimics</title>
+    <link rel="shortcut icon" href="res/img/Mimi.png" />
+    <link rel="apple-touch-icon-precomposed" href="res/img/Mimi.png" />
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -33,30 +35,62 @@
         </nav>
     </section>
 
-    <section class="section is-large is-grey" id="DnD">
+    <section class="section is-medium is-grey" id="DnD">
         <div class="container centre">
             <p class="title">D&D</p>
         </div>
         <div class="container centre">
             <p class="subtitle is-4">Some information about D&D</p>
         </div>
+        <i class="fas fa-chevron-circle-down centre container expand" id="DndChevron"
+            style="display: flex; padding-top: 1.5rem; font-size: 2rem;" data-disclosure aria-controls="dndexpand"
+            aria-expanded="false hidden"></i>
+        <div id="dndexpand" class="container campaignExplain">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <p class="is-size-4">It started with a simple delivery to Phandalin...</p>
+                </div>
+            </div>
+
+
+        </div>
     </section>
 
-    <section class="section is-large is-pink" id="GlitterHearts">
+    <section class="section is-medium is-pink" id="GlitterHearts">
         <div class="container centre">
             <p class="title">Glitter Hearts</p>
         </div>
         <div class="container centre">
             <p class="subtitle is-4">Some information about Glitter Hearts</p>
         </div>
+        <i class="fas fa-chevron-circle-down centre container expand" id="GlitterChevron"
+            style="display: flex; padding-top: 1.5rem; font-size: 2rem;" data-disclosure aria-controls="glitterexpand"
+            aria-expanded="false hidden"></i>
+        <div id="glitterexpand" class="container campaignExplain">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <p class="is-size-4">It started with a simple school day...</p>
+                </div>
+            </div>
+
     </section>
 
-    <section class="section is-large is-green" id="OneShot">
+    <section class="section is-medium is-green" id="OneShot">
         <div class="container centre">
             <p class="title">One Shots</p>
         </div>
         <div class="container centre">
             <p class="subtitle is-4">Some information about One Shots</p>
+        </div>
+        <i class="fas fa-chevron-circle-down centre container expand" id="DndOneShot"
+            style="display: flex; padding-top: 1.5rem; font-size: 2rem;" data-disclosure aria-controls="oneshotexpand"
+            aria-expanded="false hidden"></i>
+        <div id="oneshotexpand" class="container campaignExplain">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <p class="is-size-4">It started with a simple OneShot...</p>
+                </div>
+            </div>
         </div>
     </section>
     <footer class="footer">
@@ -68,8 +102,10 @@
             </p>
         </div>
     </footer>
-</body>
+    <script type="text/javascript" src="https://kit.fontawesome.com/a1e5d10126.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="_javascript/disclosure.js"></script>
 
-<script src="https://kit.fontawesome.com/a1e5d10126.js" crossorigin="anonymous"></script>
+
+</body>
 
 </html>

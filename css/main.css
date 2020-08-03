@@ -12107,3 +12107,11 @@ print {
   transition-delay: 0;
   transition-duration: 1s;
 }
+
+.expand {
+  cursor: pointer;
+}
+
+.campaignExplain {
+  padding-top: 2rem;
+}
