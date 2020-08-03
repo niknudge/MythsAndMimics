@@ -12094,6 +12094,10 @@ print {
   }
 }
 
+.is-player {
+  cursor: pointer;
+}
+
 .is-player figure {
   opacity: 0.3;
 }

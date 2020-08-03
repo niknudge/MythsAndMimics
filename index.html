@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Myths & Mimics</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 </head>
 
 <body>
@@ -53,20 +54,23 @@
         <div class="container">
             <div class="columns is-centered is-multiline is-mobile">
                 <div class="column is-narrow">
-                    <a class="button is-rounded is-large is-outlined"
-                        href="https://www.twitch.tv/mythsandmimics" style="border-color: #6441a5; color: #6441a5;"><i class="fab fa-twitch"></i>&nbsp;Twitch</a>
+                    <a class="button is-rounded is-large is-outlined" href="https://www.twitch.tv/mythsandmimics"
+                        style="border-color: #6441a5; color: #6441a5;"><i class="fab fa-twitch"></i>&nbsp;Twitch</a>
                 </div>
                 <div class="column is-narrow">
                     <a class="button is-rounded is-large is-outlined"
-                        href="https://www.youtube.com/channel/UC9zo4omBKFRLvmOPV1a2AFA" style="border-color: #FF0000;; color: #FF0000;;"><i class="fab fa-youtube"></i>&nbsp;Youtube</a>
+                        href="https://www.youtube.com/channel/UC9zo4omBKFRLvmOPV1a2AFA"
+                        style="border-color: #FF0000;; color: #FF0000;;"><i class="fab fa-youtube"></i>&nbsp;Youtube</a>
                 </div>
                 <div class="column is-narrow">
                     <a class="button is-rounded is-large is-outlined"
-                        href="https://calendar.google.com/calendar/b/1?cid=bXl0aHNhbmRtaW1pY3NAZ21haWwuY29t" style="border-color: #10ccbc; color: #10ccbc;"><i class="far fa-calendar-alt"></i>&nbsp;Schedule</a>
+                        href="https://calendar.google.com/calendar/b/1?cid=bXl0aHNhbmRtaW1pY3NAZ21haWwuY29t"
+                        style="border-color: #10ccbc; color: #10ccbc;"><i
+                            class="far fa-calendar-alt"></i>&nbsp;Schedule</a>
                 </div>
                 <div class="column is-narrow">
-                    <a class="button is-rounded is-large  is-outlined"
-                        href="https://twitter.com/mythsandmimics" style="border-color: #1DA1F2; color: #1DA1F2;"><i class="fab fa-twitter"></i>&nbsp;Twitter</a>
+                    <a class="button is-rounded is-large  is-outlined" href="https://twitter.com/mythsandmimics"
+                        style="border-color: #1DA1F2; color: #1DA1F2;"><i class="fab fa-twitter"></i>&nbsp;Twitter</a>
                 </div>
             </div>
         </div>
@@ -94,39 +98,39 @@
     <section class="section is-medium container is-fluid" id="Players">
         <h1 class="title centre" style="padding-bottom: 3rem;">Who We Are</h1>
         <div class="columns is-centered is-multiline is-desktop">
-            <div class="column is-one-quarter is-player">
+            <div class="column is-one-quarter is-player modal-button" data-target="ModalSol">
                 <figure class="image is-1by1">
                     <img src="res/img/Sol.png" alt="Placeholder image" />
                 </figure>
             </div>
-            <div class="column is-one-quarter is-player">
+            <div class="column is-one-quarter is-player modal-button" data-target="ModalNiko">
                 <figure class="image is-1by1">
                     <img src="res/img/nik0.png" alt="Placeholder image" />
                 </figure>
             </div>
-            <div class="column is-one-quarter is-player">
+            <div class="column is-one-quarter is-player modal-button" data-target="ModalNik">
                 <figure class="image is-1by1">
                     <img src="res/img/Nik.png" alt="Placeholder image" />
                 </figure>
             </div>
-            <div class="column is-one-quarter is-player">
+            <div class="column is-one-quarter is-player modal-button" data-target="ModalJask">
                 <figure class="image is-1by1">
                     <img src="res/img/Jask.png" alt="Placeholder image" />
                 </figure>
             </div>
         </div>
         <div class="columns is-centered is-multiline is-desktop">
-            <div class="column is-one-quarter is-player">
+            <div class="column is-one-quarter is-player modal-button" data-target="ModalTouc">
                 <figure class="image is-1by1">
                     <img src="res/img/Touc.png" alt="Placeholder image" />
                 </figure>
             </div>
-            <div class="column is-one-quarter is-player">
+            <div class="column is-one-quarter is-player modal-button" data-target="ModalVex">
                 <figure class="image is-1by1">
                     <img src="res/img/Vex.png" alt="Placeholder image" />
                 </figure>
             </div>
-            <div class="column is-one-quarter is-player">
+            <div class="column is-one-quarter is-player modal-button" data-target="ModalExcal">
                 <figure class="image is-1by1">
                     <img src="res/img/Excal.png" alt="Placeholder image" />
                 </figure>
@@ -142,8 +146,144 @@
             </p>
         </div>
     </footer>
+
+    <div id="ModalSol" class="modal modal-fx-3dSlit">
+        <div class="modal-background"></div>
+        <div class="modal-content is-tiny">
+            <!-- content -->
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-1by1">
+                        <img src="res/img/Sol.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="ModalNiko" class="modal modal-fx-3dSlit">
+        <div class="modal-background"></div>
+        <div class="modal-content is-tiny">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-1by1">
+                        <img src="res/img/nik0.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="ModalNik" class="modal modal-fx-3dSlit">
+        <div class="modal-background"></div>
+        <div class="modal-content is-tiny">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-1by1">
+                        <img src="res/img/Nik.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="ModalJask" class="modal modal-fx-3dSlit">
+        <div class="modal-background"></div>
+        <div class="modal-content is-tiny">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-1by1">
+                        <img src="res/img/Jask.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="ModalTouc" class="modal modal-fx-3dSlit">
+        <div class="modal-background"></div>
+        <div class="modal-content is-tiny">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-1by1">
+                        <img src="res/img/Touc.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="ModalVex" class="modal modal-fx-3dSlit">
+        <div class="modal-background"></div>
+        <div class="modal-content is-tiny">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-1by1">
+                        <img src="res/img/Vex.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="ModalExcal" class="modal modal-fx-3dSlit">
+        <div class="modal-background"></div>
+        <div class="modal-content is-tiny">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-1by1">
+                        <img src="res/img/Excal.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a1e5d10126.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
 </body>
 
-<script src="https://kit.fontawesome.com/a1e5d10126.js" crossorigin="anonymous"></script>
 
 </html>
