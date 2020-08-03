@@ -98,3 +98,8 @@ $dimensions: 16 24 32 48 64 96 128 256;
 .campaignExplain {
   padding-top: 2rem;
 }
+
+.rotate {
+  transform: rotate(180deg);
+  transition-duration: 1s;
+}
